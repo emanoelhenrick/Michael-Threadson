@@ -59,7 +59,7 @@ public class Track {
     thread.start();
   }
 
-  public void stop() {                      // ← novo
+  public void stop() {
     running = false;
     thread.interrupt();
   }

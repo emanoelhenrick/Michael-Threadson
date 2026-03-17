@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public static void printTracks(Track[] tracks) {
   System.out.print("\033[H");
-  System.out.println("🎵 MIXER DE FAIXAS");
+  System.out.println("MIXER DE FAIXAS");
   System.out.println("──────────────────");
   for (int i = 0; i < tracks.length; i++) {
     String status = tracks[i].isActive() ? "▶ tocando" : "⏸ pausado";
